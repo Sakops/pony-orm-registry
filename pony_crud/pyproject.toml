@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "lesson7"
+version = "0.1.0"
+description = ""
+authors = ["Samuel Darenskiy <samdarenskiy@protonmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pony = "^0.7.14"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
